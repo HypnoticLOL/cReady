@@ -6,9 +6,9 @@ its a iReady 'hack' that allows you to change certant things about iReady, this 
 +Background Changer<br>
 +Title Changer<br>
 +Name Changer<br>
-+Minuite Chagner (Beta)<br>
++Minuite Chagner (Beta)<p>only works if you have 4 minuites</p><br>
 +Icon Changer<br>
-+Darkmode (Auto On)<br>
++Darkmode<br>
 +Lightmode<br>
 
 # How To Use
