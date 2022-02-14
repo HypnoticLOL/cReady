@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "cReady",
+  "icons": { 
+    "128": "icon.png"
+  },
+  "version": "1",
+  "description": "Made By HypnoticLOL",
+  "permissions": [
+    "storage"
+  ],
+  "content_scripts": [
+  {
+    "js": ["main.js"],
+    "matches": ["*://login.i-ready.com/*"]
+  }
+]
+}
