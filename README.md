@@ -6,7 +6,7 @@ its a iReady 'hack' that allows you to change certant things about iReady, this 
 +Background Changer<br>
 +Title Changer<br>
 +Name Changer<br>
-+Minuite Chagner (Beta)<p>only works if you have 4 minuites</p><br>
++Minuite Chagner (Beta) Only works if you have 4 minuites<br>
 +Icon Changer<br>
 +Darkmode<br>
 +Lightmode<br>
