@@ -1,5 +1,5 @@
 # DISCLAMER
-cReady wont be undergoing any mantnence from origanal owner HypnoticLOL, he killed himself
+cReady wont be undergoing any mantnence from origanal owner HypnoticLOL, he killed himself by this I mean he would not be wanting to be adding anything or making any changes, his account will be used by me, my name is Anna. 
 
 # cReady
 Made By HypnoticLOL, SharkiArthur, and Cupdity
