@@ -1,3 +1,6 @@
+# DISCLAMER
+cReady wont be undergoing any mantnence from origanal owner HypnoticLOL, he killed himself
+
 # cReady
 Made By HypnoticLOL, SharkiArthur, and Cupdity
 
