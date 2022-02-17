@@ -23,5 +23,5 @@ this shouldnt but if you use iready overload that will, but this shouldnt becaus
 
 # DISCLAMER
 cReady wont be undergoing any mantnence from origanal owner HypnoticLOL, he killed himself by this I mean he would not be wanting to be adding anything or making any changes, his account will be used by me, my name is Anna. 
-![image](https://user-images.githubusercontent.com/96861065/154383276-bb041620-e000-49ff-9955-901f9b4b5953.png)
+https://user-images.githubusercontent.com/96861065/154383434-232ddd0c-9a54-40f8-9a4b-f37e8e34c69e.png
 wtf is wrong with cupid
