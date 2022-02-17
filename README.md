@@ -19,7 +19,7 @@ Copy the text in bookmarklet.txt, make a bookmark press "More" Delete whats in t
 
 # Q&A
 Will this get me banned?<br>
-this shouldnt but if you use <a src="https://github.com/SharkiArthur/iReady-Overload"iReady Overload</a> that will, but this shouldnt because were changing things on the client side and iready should see anything wrong<br>
+this shouldnt but if you use <a src="https://github.com/SharkiArthur/iReady-Overload">iReady Overload</a> that will, but this shouldnt because were changing things on the client side and iready should see anything wrong<br>
 
 # DISCLAMER
 cReady wont be undergoing any mantnence from origanal owner HypnoticLOL, he killed himself by this I mean he would not be wanting to be adding anything or making any changes, his account will be used by me, my name is Anna. 
