@@ -1,5 +1,5 @@
 # cReady
-Made By HypnoticLOL, SharkiArthur, and Cupdity
+Made By Current Manager Anna HypnoticLOL, SharkiArthur, and Cupdity
 
 # Whats cReady?
 its a iReady 'hack' that allows you to change certant things about iReady, this includes currently<br>
