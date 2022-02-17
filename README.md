@@ -1,6 +1,3 @@
-# DISCLAMER
-cReady wont be undergoing any mantnence from origanal owner HypnoticLOL, he killed himself by this I mean he would not be wanting to be adding anything or making any changes, his account will be used by me, my name is Anna. 
-
 # cReady
 Made By HypnoticLOL, SharkiArthur, and Cupdity
 
@@ -23,3 +20,8 @@ Copy the text in bookmarklet.txt, make a bookmark press "More" Delete whats in t
 # Q&A
 Will this get me banned?<br>
 this shouldnt but if you use iready overload that will, but this shouldnt because were changing things on the client side and iready should see anything wrong<br>
+
+# DISCLAMER
+cReady wont be undergoing any mantnence from origanal owner HypnoticLOL, he killed himself by this I mean he would not be wanting to be adding anything or making any changes, his account will be used by me, my name is Anna. 
+![image](https://user-images.githubusercontent.com/96861065/154383276-bb041620-e000-49ff-9955-901f9b4b5953.png)
+wtf is wrong with cupid
