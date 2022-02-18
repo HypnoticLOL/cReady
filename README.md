@@ -1,5 +1,3 @@
-# cReady
-Made By Current Manager Anna HypnoticLOL, SharkiArthur, and Cupdity <--- creepy mfer
 
 # Whats cReady?
 its a iReady 'hack' that allows you to change certant things about iReady, this includes currently<br>
@@ -20,8 +18,3 @@ Copy the text in bookmarklet.txt, make a bookmark press "More" Delete whats in t
 # Q&A
 Will this get me banned?<br>
 this shouldnt but if you use <a href="https://github.com/SharkiArthur/iReady-Overload">iReady Overload</a> that will, but this shouldnt because were changing things on the client side and iready should see anything wrong<br>
-
-# DISCLAMER
-cReady wont be undergoing any mantnence from origanal owner HypnoticLOL, he killed himself by this I mean he would not be wanting to be adding anything or making any changes, his account will be used by me, my name is Anna. 
-https://user-images.githubusercontent.com/96861065/154383434-232ddd0c-9a54-40f8-9a4b-f37e8e34c6ae.png
-wtf is wrong with cupid
