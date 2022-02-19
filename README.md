@@ -6,8 +6,8 @@ its a iReady 'hack' that allows you to change certant things about iReady, this 
 +Name Changer<br>
 +Minuite Chagner (Beta) Only works if you have 4 minuites<br>
 +Icon Changer<br>
-+Darkmode<br>
-+Lightmode<br>
++Darkmode (beta)<br>
++Lightmode (beta)<br>
 
 # How To Use
 Go onto iReady if you have the exstenion it should popup instantly, if your using the bookmarklet press it.
