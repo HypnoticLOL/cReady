@@ -68,26 +68,32 @@ body {
 }
 </style>
 </head>
-		<br>
-		<br>
-		<button id="bc" class="button">Custom Background</button>
-		<br>
-		<br>
-		<button id="tc" class="button">Title Changer</button>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
+          <button onclick="bc()" class="button">Background Changer</button>
+          <br>
+          <br>
+          <button onclick="tc()" class="button">Title Changer</button>
+          <br>
+          <br>
+          <button onclick="nc()" class="button">Name Changer</button>
+          <br>
+          <br>
+          <button onclick="mc()" class="button">Minuite Changer</button><br>
+          <br>
+          <br>
+          <button onclick="fc()" class="button">Icon Changer</button>
+          <br>
+          <br>
+          <button onclick="dark()" class="button">Dark Mode (auto on)</button>
+          <br>
+          <br>
+          <button onclick="white()" class="button">Light Mode</button>
+          <br>
+          <br>
+          <button onclick="credit()" class="button">Credit</button
 	</div>`
-
 dragElement(UI.firstElementChild);
 document.body.appendChild(UI);
-
-document.getElementById('bc').onclick = bc;
-document.getElementById('tc').onclick = tc;
-
+//drag shit
 function dragElement(e) {
     let t = 0,
         n = 0,
@@ -110,17 +116,133 @@ function dragElement(e) {
 
 //CREDIT AREA DO NOT DELETE OR YOUR BREAKING MY LICENCE
 
+
 function credit(){
   var currentNode = document.querySelector('#LoL');
 
   var newNode = document.createElement('div');
 
   newNode.id = 'html2';
-  newNode.innerHTML =
-  '<div id="LoL" style="height:200px; width:200px; left: 1px; top: 1px; background-color: #282828; color: white; outline: purple solid 1px; position:absolute; z-index: 99999;"><h1 style="font-size: 50px">Credit</h1><br><p style="font-size: 10px">Head Dev</p><a href="https://github.com/HypnoticLOL?tab=repositories" style="font-size: 10px">HypnoticLOL</a><br><br><p style="font-size: 10px">Made The Icon & helped with alot of the functions</p><a href="https://github.com/sharkiarthur" style="font-size: 10px">SharkiArthur</a><br><br><p style="font-size: 10px">Helped With Cookie, Put up with our shit, reason the menu works</p><a style="font-size: 10px" href="https://github.com/cupiditys">Cupidity</a><button>go back</button</div>';
+  newNode.innerHTML = `<div id="LoL" class="Lol" style="border: 1px solid #1e2124; opacity: 0.9; border-radius: 5px; width:150px; width:150px; left: 740px; top: 100px; background-color: #2C2F33; color: white; position:absolute; z-index: 99999;">
+<h1 style="font-size: 50px">Credit</h1><br><p style="font-size: 10px">Head Dev</p>
+<a href="https://github.com/HypnoticLOL?tab=repositories" style="font-size: 10px">HypnoticLOL</a>
+<br>
+<br>
+<p style="font-size: 10px">Made The Icon & helped with alot of the functions</p>
+<a href="https://github.com/sharkiarthur" style="font-size: 10px">SharkiArthur</a>
+<br>
+<br>
+<p style="font-size: 10px">Helped With Cookie, Put up with our shit, reason the menu works</p><a style="font-size: 10px" href="https://github.com/cupiditys">Cupidity</a>
+<br>
+<br>
+<p style="font-size: 10px">made this cool ass GUI</p><a style="font-size: 10px" href="https://github.com/Wang-sus">Wang</a>
+<br>
+<br>
+<h2>im to lazy to make a go back feature to go back refresh and open menu again</h2>
+</div>`
 
   currentNode.parentNode.replaceChild(newNode, currentNode);
 }
+function back(){
+  var currentNode = document.querySelector('#html2');
+
+  var newNode = document.createElement('div');
+
+  newNode.id = 'html2';
+  newNode.innerHTML = `
+	<div class="Lol" style="border: 1px solid #1e2124; opacity: 0.9; border-radius: 5px; width:150px; width:150px; left: 740px; top: 100px; background-color: #2C2F33; color: white; position:absolute; z-index: 99999;">
+		<h1 style="font-size: 25px;"><center>Quick GUI</center></h1>
+<head>
+<style>
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: #000000;
+}
+.LoL {
+  --borderWidth: 3px;
+  background: #000000;
+  position: relative;
+  border-radius: var(--borderWidth);
+}
+.LoL:after {
+  content: '';
+  position: absolute;
+  top: calc(-1 * var(--borderWidth));
+  left: calc(-1 * var(--borderWidth));
+  height: calc(100% + var(--borderWidth) * 2);
+  width: calc(100% + var(--borderWidth) * 2);
+  background: linear-gradient(60deg, #36393e, #1e2124, #282b30);
+  border-radius: calc(2 * var(--borderWidth));
+  z-index: -1;
+  animation: animatedgradient 3s ease alternate infinite;
+  background-size: 300% 300%;
+}
+@keyframes animatedgradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.button {
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  width: 100%;
+  text-align: center;
+  border-radius: 6px;
+  color: black; 
+  background-color:#6d80c4;
+}
+.button:hover {
+  background-color:#abb4ff;
+}
+.button:active {
+  box-shadow: 0 2px #666;
+  transform: translateY(2px);
+  background-color: #7d8bfa;
+}
+</style>
+</head>
+          <button onclick="bc()" class="button">Background Changer</button>
+          <br>
+          <br>
+          <button onclick="tc()" class="button">Title Changer</button>
+          <br>
+          <br>
+          <button onclick="nc()" class="button">Name Changer</button>
+          <br>
+          <br>
+          <button onclick="mc()" class="button">Minuite Changer</button><br>
+          <br>
+          <br>
+          <button onclick="fc()" class="button">Icon Changer</button>
+          <br>
+          <br>
+          <button onclick="dark()" class="button">Dark Mode (auto on)</button>
+          <br>
+          <br>
+          <button onclick="white()" class="button">Light Mode</button>
+	</div>`;
+
+  currentNode.parentNode.replaceChild(newNode, currentNode);
+}
+
+
 
 //cookie shit/custom background
 
@@ -156,7 +278,7 @@ function nc(){
 //min changer
 function mc(){
         var min = prompt("Custom Minute! Please put how many minuites you want in the box below (do this in the my progress tab of iready)")
-        document.getElementsByClassName('css-7ltzax e16nsggma')[0].innerHTML =min;
+        document.getElementsByClassName('css-7ltzax e16nsggm5')[0].innerHTML =min;
 }
 //darkmode 
         function dark(){
@@ -213,13 +335,4 @@ document.getElementsByClassName('wf-roboto-n4-active wf-roboto-i4-active wf-robo
 document.body.appendChild(UI)
 document.addEventListener("keydown", function(e) {
         e.ctrlKey && "x" == e.key && ("block" == LoL.style.display ? LoL.style.display = "none" : LoL.style.display = "block")
-    }), document.getElementById("skip")
-    .addEventListener("click", function() {
-        skipLesson(document.getElementById("skip"))
-    }), document.getElementById("farm")
-    .addEventListener("click", function() {
-        farmMinutes(document.getElementById("farm"))
-    }), document.getElementById("diagnostic")
-    .addEventListener("click", function() {
-        diagnosticHack(document.getElementById("diagnostic"))
-    }), dragElement(UI.firstElementChild);
+})
