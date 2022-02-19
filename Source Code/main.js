@@ -1,5 +1,93 @@
-let UI = document.createElement("div");
-UI.innerHTML = '<div id="LoL" style="height:420px; width:200px; left: 1px; top: 1px; background-color: #282828; color: white; outline: purple solid 1px; position:absolute; z-index: 99999;"><h1 style="font-size: 50px;">cReady </h1><img src="https://images.hypnoticlol.repl.co/icon.png" height="35px" width="35px" onclick="credit()"><br><br><button onclick="bc()">Background Changer</button><br><br><button onclick="tc()">Title Changer</button><br><br><button onclick="nc()">Name Changer</button><br><br><button onclick="mc()">Minuite Changer</button><br><br><button onclick="fc()">Icon Changer</button><br><br><button onclick="dark()">Dark Mode</button><br><br><button onclick="white()">Light Mode</button></div><body id=html2></body>';
+var UI = document.createElement("div");
+UI.innerHTML = `
+	<div id="LoL" class="Lol" style="border: 1px solid #1e2124; opacity: 0.9; border-radius: 5px; width:150px; width:150px; left: 740px; top: 100px; background-color: #2C2F33; color: white; position:absolute; z-index: 99999;">
+		<h1 style="font-size: 25px;"><center>Quick GUI</center></h1>
+<head>
+<style>
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: #000000;
+}
+.LoL {
+  --borderWidth: 3px;
+  background: #000000;
+  position: relative;
+  border-radius: var(--borderWidth);
+}
+.LoL:after {
+  content: '';
+  position: absolute;
+  top: calc(-1 * var(--borderWidth));
+  left: calc(-1 * var(--borderWidth));
+  height: calc(100% + var(--borderWidth) * 2);
+  width: calc(100% + var(--borderWidth) * 2);
+  background: linear-gradient(60deg, #36393e, #1e2124, #282b30);
+  border-radius: calc(2 * var(--borderWidth));
+  z-index: -1;
+  animation: animatedgradient 3s ease alternate infinite;
+  background-size: 300% 300%;
+}
+@keyframes animatedgradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.button {
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  width: 100%;
+  text-align: center;
+  border-radius: 6px;
+  color: black; 
+  background-color:#6d80c4;
+}
+.button:hover {
+  background-color:#abb4ff;
+}
+.button:active {
+  box-shadow: 0 2px #666;
+  transform: translateY(2px);
+  background-color: #7d8bfa;
+}
+</style>
+</head>
+		<br>
+		<br>
+		<button id="bc" class="button">Custom Background</button>
+		<br>
+		<br>
+		<button id="tc" class="button">Title Changer</button>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+	</div>`
+
+dragElement(UI.firstElementChild);
+document.body.appendChild(UI);
+
+document.getElementById('bc').onclick = bc;
+document.getElementById('tc').onclick = tc;
+
 function dragElement(e) {
     let t = 0,
         n = 0,
