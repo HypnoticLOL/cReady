@@ -1,4 +1,4 @@
-
+itll be fixed soon give me like 3 hours<br>
 # Whats cReady?
 its a iReady 'hack' that allows you to change certant things about iReady, this includes currently<br>
 +Background Changer<br>
